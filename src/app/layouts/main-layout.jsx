@@ -3,7 +3,7 @@ import { Header } from '@/widgets/header/header';
 import { Footer } from '@/widgets/footer/footer';
 import { Newsletter } from '@/widgets/newsletter/newsletter';
 import { FreeGuideModal } from '@/features/free-guide-modal/free-guide-modal';
-
+ 
 export function MainLayout() {
   return (
     <>
