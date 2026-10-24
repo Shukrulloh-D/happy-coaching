@@ -1,0 +1,8 @@
+.section { background: var(--bg-gray); padding: 50px 0; border-top: 1px solid #eee; }
+.inner { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
+.title { font-size: 24px; margin-bottom: 5px; color: var(--primary); }
+.subtitle { color: #999; font-size: 15px; }
+.form { display: flex; gap: 10px; }
+.input { padding: 15px 20px; border-radius: 8px; border: 1px solid #ddd; width: 300px; font-size: 15px; outline: none; }
+.input:focus { border-color: var(--accent); }
+@media (max-width: 768px) { .inner { flex-direction: column; text-align: center; } .form { flex-direction: column; width: 100%; } .input { width: 100%; } }

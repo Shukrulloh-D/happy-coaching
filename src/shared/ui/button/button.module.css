@@ -1,0 +1,4 @@
+.btn { background: var(--accent); color: #fff; padding: 14px 28px; border-radius: 8px; font-weight: 600; font-size: 15px; transition: all 0.3s ease; display: inline-flex; align-items: center; justify-content: center; border: 2px solid var(--accent); }
+.btn:hover { background: #119c87; border-color: #119c87; transform: translateY(-2px); }
+.btnOutline { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
+.btnOutline:hover { background: var(--primary); color: #fff; }

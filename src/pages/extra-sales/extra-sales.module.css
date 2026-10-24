@@ -1,0 +1,10 @@
+.hero { padding: 100px 0; background: var(--bg-gray); }
+.heroGrid { display: flex; align-items: center; gap: 50px; }
+.heroTitle { font-size: 56px; margin: 20px 0; color: var(--primary); }
+.programSection { padding: 100px 0; }
+.programGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 50px; }
+.programCol { background: #fff; padding: 40px; border-radius: 16px; border: 1px solid #eee; }
+.programColActive { background: var(--bg-gray); border: none; }
+.listItem { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 15px; color: #555; }
+.iconCross { color: #FF5A5F; font-weight: bold; font-size: 20px; }
+.iconCheck { color: var(--accent); font-weight: bold; font-size: 20px; }

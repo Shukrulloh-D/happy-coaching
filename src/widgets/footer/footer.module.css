@@ -1,0 +1,9 @@
+.footer { background: #fff; padding: 60px 0 30px; border-top: 1px solid #eee; }
+.grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+.desc { font-size: 14px; color: #999; max-width: 250px; line-height: 1.6; }
+.colTitle { margin-bottom: 20px; font-size: 16px; color: var(--primary); font-weight: bold; }
+.links { display: flex; flex-direction: column; gap: 12px; font-size: 14px; }
+.links a, .links span { color: #777; transition: color 0.2s; }
+.links a:hover { color: var(--accent); }
+.bottom { border-top: 1px solid #eee; padding-top: 20px; display: flex; justify-content: space-between; font-size: 13px; color: #999; }
+.socials { display: flex; gap: 15px; font-size: 16px; color: #999; }

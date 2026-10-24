@@ -1,0 +1,5 @@
+.hero { padding: 100px 0; }
+.heroGrid { display: flex; align-items: center; gap: 50px; }
+.title { font-size: 56px; margin: 20px 0; color: var(--primary); }
+.img { width: 100%; height: 600px; border-radius: 20px; display: inline-block; }
+.logos { padding: 50px 0; display: flex; justify-content: space-between; align-items: center; opacity: 0.5; font-family: var(--font-heading); font-size: 24px; }

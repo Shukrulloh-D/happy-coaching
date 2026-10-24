@@ -1,0 +1,22 @@
+.hero { padding: 100px 0; background: var(--bg-gray); overflow: hidden; }
+.heroGrid { display: flex; align-items: center; gap: 50px; }
+.heroContent { flex: 1; }
+.script { color: #999; font-weight: 600; letter-spacing: 1px; font-size: 14px; }
+.title { font-size: 64px; margin: 20px 0; line-height: 1.1; color: var(--primary); }
+.text { font-size: 18px; margin-bottom: 40px; max-width: 500px; line-height: 1.6; }
+.imageWrap { flex: 1; position: relative; display: flex; justify-content: flex-end; }
+.heroImg { width: 90%; height: 600px; object-fit: cover; border-radius: 20px; }
+.floatingCard { position: absolute; top: 40px; left: -30px; background: #fff; padding: 25px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 15px; z-index: 2; }
+.floatIcon { background: #E6F7F4; padding: 15px; border-radius: 50%; font-size: 24px; }
+.floatTitle { font-size: 24px; color: var(--primary); font-weight: bold; }
+.floatText { font-size: 13px; color: #777; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 50px; }
+.grid3Center { text-align: center; margin-top: 50px; }
+.promoGrid { display: flex; align-items: center; gap: 50px; padding: 100px 0; }
+.promoTitle { font-size: 40px; color: var(--primary); margin-bottom: 20px; }
+.promoCard { flex: 1; background: #3B3D6D; border-radius: 20px; padding: 40px; color: #fff; position: relative; }
+.promoBadge { position: absolute; top: -20px; right: -20px; background: var(--accent); padding: 15px 25px; border-radius: 50%; font-weight: bold; }
+.promoImg { border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-top: 20px; }
+.sessionBox { background: var(--bg-gray); border-radius: 20px; display: flex; overflow: hidden; margin-bottom: 100px; }
+.sessionContent { flex: 1; padding: 60px; }
+.sessionImg { flex: 1; object-fit: cover; width: 50%; }
